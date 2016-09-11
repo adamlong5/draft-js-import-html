@@ -1,6 +1,6 @@
 /* @flow */
 
-import {stateFromElement} from 'draft-js-import-element';
+const {stateFromElement} = require('../draft-js-import-element/lib/main')
 import parseHTML from './parseHTML';
 
 const {ContentState} = global.Draft
