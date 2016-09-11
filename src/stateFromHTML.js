@@ -3,7 +3,7 @@
 import {stateFromElement} from 'draft-js-import-element';
 import parseHTML from './parseHTML';
 
-import type {ContentState} from 'draft-js';
+const {ContentState} = global.Draft
 
 type Options = {
   parser?: (html: string) => Element;
